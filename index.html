@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="desciption" content="Calculul Volumului">
+    <meta name="keywords" content="HTML, CSS, Moment, Block">
+    <meta name="author" content="Tudor Adrian">
+    <title>Blocks</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <header id="detail">
+        <form action="/action_page.php">
+            <label for="bigBlockDetail">Masa blocului mare:</label><br>
+            <input type="number" min="10" id="bigBlockDetail" name="bigBlockDetail" placeholder="multiplu de 10 al celui mic"><br>
+            <label for="lname">Masa blocului mic:</label><br>
+            <input type="number" min="1" id="smallBlockDetail" name="smallBlockDetail" placeholder="pune 1"><br><br>
+            <div id="push">
+                <p>PUSH!</p>
+            </div>
+        </form> 
+    </header>
+    <main id="container">
+        <div id="smallBlock"></div>
+        <div id="bigBlock"></div>       
+    </main>
+    <footer>
+        <h3>Numarul coliziunitlor: <h2><span id="colision">0</span></h2></h3>
+    </footer>
+</body>
+</html>
